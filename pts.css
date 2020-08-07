@@ -55,9 +55,23 @@ h4 {
 	opacity: 0.75;
 }
 
+h5 {
+	text-align: center;
+	font-size: 30px;
+	background-color: #46AE7C;
+	color: #FFFFFF;
+	padding: 50px 20px;
+	opacity: 0.75;
+}
+
 p {
-	padding: 10px 50px;
+	padding: 10px 60px;
 	font-size: 20px;
+}
+
+img {
+	width: auto;
+	max-height:150px;
 }
 
 html {
