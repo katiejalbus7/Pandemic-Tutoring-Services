@@ -88,7 +88,7 @@ div {
 	display: grid;
 	grid-gap: 0px;
 	padding: 0px;
-	grid-template-areas: 'header header header header header' 'wawtext wawtext wawtext wawtext wawphoto''jphoto jtext jtext jtext jtext''mphoto mtext mtext mtext mtext''mnphoto mntext mntext mntext mntext''kphoto ktext ktext ktext ktext''photo text text text text';
+	grid-template-areas: 'header header header header header' 'wawtext wawtext wawtext wawtext wawphoto''jphoto jtext jtext jtext jtext''mphoto mtext mtext mtext mtext''mnphoto mntext mntext mntext mntext''kphoto ktext ktext ktext ktext''ephoto etext etext etext etext';
 }
 
 .whoareweheader { grid-area: header; }
@@ -102,6 +102,8 @@ div {
 .maddypara { grid-area: mntext; }
 .katieimg { grid-area: kphoto; }
 .katiepara { grid-area: ktext; }
+.elishaimg { grid-area: ephoto; }
+.elishapara { grid-area: etext; }
 
 .footer {
 	position: fixed;
