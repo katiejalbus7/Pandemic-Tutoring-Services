@@ -84,6 +84,25 @@ div {
 	font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
+.whoarewe {
+	display: grid;
+	grid-gap: 0px;
+	padding: 0px;
+	grid-template-areas: 'header header header header header' 'wawtext wawtext wawtext wawtext wawphoto''jphoto jtext jtext jtext jtext''mphoto mtext mtext mtext mtext''mnphoto mntext mntext mntext mntext''kphoto ktext ktext ktext ktext''photo text text text text';
+}
+
+.whoareweheader { grid-area: header; }
+.whoareweimg { grid-area: wawphoto; }
+.whoarewepara { grid-area: wawtext; }
+.jamesimg { grid-area: jphoto; }
+.jamespara { grid-area: jtext; }
+.mackenzieimg { grid-area: mphoto; }
+.mackenziepara { grid-area: mtext; }
+.maddyimg { grid-area: mnphoto; }
+.maddypara { grid-area: mntext; }
+.katieimg { grid-area: kphoto; }
+.katiepara { grid-area: ktext; }
+
 .footer {
 	position: fixed;
 	bottom: 0;
